@@ -1,0 +1,147 @@
+.pokemonCard-container{
+  background-color: aquamarine;
+  width: 200px;
+  height: 300px;
+  border-radius: 15px;
+  float: left;
+  margin: 40px;
+  text-align: left;
+}
+
+.pokemonCard-glove {
+  background-color: aqua;
+  width: 80%;
+  border-radius: 5px;
+  padding: 2px;
+  margin: 2px;
+  color: green;
+}
+.pokemonCard-tittle{
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.areaName2{
+  text-transform: capitalize;
+}
+.init,
+.finish {
+  text-align: center;}
+
+.pokedex-individual{
+  margin: auto;
+  width: 100%;
+  height: 700px;
+  background-color: aquamarine;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+
+}
+
+.image{
+  grid-column: 1/4;
+  text-align: center;
+  
+  
+}
+
+
+.areaName {
+  grid-column: 1/3;
+  text-align: center;
+  margin: 20px;
+  background-color: aliceblue;
+  border-radius: 15px;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, .5);
+  }
+
+.Home-Container{
+  text-align: center;
+  margin-top: 150px;
+  
+}
+
+.areaMovments {
+  grid-column: 3/4;
+  grid-row: 2/4;
+  text-align: center;
+  margin: 20px;
+  background-color: aliceblue;
+  border-radius: 15px;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, .5);
+  overflow-y: scroll;
+}
+
+.areaType {
+  grid-column: 1/2;
+  text-align: center;
+  margin: 20px;
+  background-color: aliceblue;
+  border-radius: 15px;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, .5);
+}
+
+.areaAbilities {
+  grid-column: 2/3;
+  text-align: center;
+  margin: 20px;
+  background-color: aliceblue;
+  border-radius: 15px;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, .5);
+}
+
+.link-back {
+  grid-column: 1/4;
+  text-align: center;
+  margin: 10px;
+  
+}
+ 
+/*#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}*/
+.Pokedex-Container{
+  display: flex;
+  flex-direction: column;
+}
+
